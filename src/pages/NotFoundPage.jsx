@@ -4,7 +4,9 @@ export default function NotFoundPage() {
   return (
     <div className="flex flex-col gap-2">
       404 Not Found
-      <Link to="/">Go To Home Page</Link>
+      <Link className="text-red-300" to="/">
+        Go To Home Page
+      </Link>
     </div>
   );
 }

@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: arabic;
+    src: url(./font/29LTUANeoB.ttf);
+}
+@font-face {
+    font-family: sansArabic;
+    src: url(./font/THESANSARABIC-BOLD.ttf);
+}
+@font-face {
+    font-family: Mont;
+    src: url(./font/Mont-ExtraLightDEMO.otf);
+}
+
+
+/* ._screenPadding {
+    @apply px-[40px] xl:px-[140px] md::px-[120px] sm::px-[80px] 
+} */
+
+
+@layer utilities {
+    .screenPadding {
+      @apply px-[16px] sm:px-[32px] md:px-[64px]  xl:px-[140px] 
+    }
+  }
