@@ -34,7 +34,7 @@ const Projects = () => {
               className="max-w-[25vw] min-w-[18rem]"
             />
 
-            <div className="rounded-3xl min-h-[70vh] grow overflow-y-hidden">
+            <div className="rounded-3xl min-h-[65vh] grow max-sm:w-[90vw] overflow-y-hidden ">
               <Testimonials />
             </div>
           </div>

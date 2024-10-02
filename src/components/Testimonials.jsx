@@ -49,7 +49,7 @@ const Testimonials = () => {
           }}
           data-aos="fade-up"
           loop={true}
-          spaceBetween={60}
+          spaceBetween={110}
           slidesPerView={1.7}
           onSlideChange={(e) => {
             console.log(e.realIndex);
@@ -75,26 +75,26 @@ const Testimonials = () => {
                   <p
                     className={
                       lng === "ar"
-                        ? "font-titleAr2 sm:text-base text-sm"
-                        : "sm:text-base text-sm"
+                        ? "font-titleAr2 sm:text-base text-[11px] md:text-[15px]"
+                        : "sm:text-base text-[11px] md:text-[15px]"
                     }
                   >
                     {t(`project.projectData.${content.key}.desc`)}
                   </p>
-                  <br />
+
                   <div className="flex justify-end">
                     <div className="flex gap-4">
                       <a
                         href={t(`project.projectData.${content.key}.url`)}
-                        className="w-10 h-10 rounded-full bg-slate-300 hover:bg-slate-600 cursor-pointer flex justify-center items-center hover:scale-110 duration-200"
+                        className="w-8 h-8 rounded-full bg-slate-300 hover:bg-slate-600 cursor-pointer flex justify-center items-center hover:scale-110 duration-200"
                       >
-                        <FaGlobe size={26} />
+                        <FaGlobe size={24} />
                       </a>
                       <a
                         href={t(`project.projectData.${content.key}.github`)}
-                        className="w-10 h-10 rounded-full bg-slate-300 hover:bg-slate-600 cursor-pointer flex justify-center items-center hover:scale-110 duration-200"
+                        className="w-8 h-8 rounded-full bg-slate-300 hover:bg-slate-600 cursor-pointer flex justify-center items-center hover:scale-110 duration-200"
                       >
-                        <FaGithub size={28} />
+                        <FaGithub size={26} />
                       </a>
                     </div>
                   </div>
