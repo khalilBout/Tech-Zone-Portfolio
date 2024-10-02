@@ -1,0 +1,132 @@
+{
+  "hero": {
+    "title": "Web Developer",
+    "btnText": "Contact Me",
+    "experience": "Years of Experience in Web Development",
+    "projects": "Completed and Successful Projects"
+  },
+  "skills": {
+    "title": "Skills",
+    "subTitle": "Key Technologies Used",
+    "skillsData": {
+      "Figma": {
+        "desc": "One of the leading tools for UI (User Interface) and UX (User Experience) design."
+      },
+      "JavaScript": {
+        "desc": "The fundamental programming language for building websites."
+      },
+      "React": {
+        "desc": "A framework designed for developing dynamic front-end interfaces."
+      },
+      "Nextjs": {
+        "desc": "A framework specialized in building dynamic websites."
+      },
+      "Tailwind Css": {
+        "desc": "A utility-first CSS framework for rapidly building custom user interfaces."
+      },
+      "MongoDB": {
+        "desc": "A NoSQL database system used to store dynamic website data."
+      },
+      "Framer Motion": {
+        "desc": "A library for adding animations and transitions to user interface elements."
+      },
+      "Github": {
+        "desc": "A platform for version control and code collaboration in software development."
+      }
+    }
+  },
+  "services": {
+    "title": "Services",
+    "subTitle": "What We Offer",
+    "servicesData": {
+      "webDevelopment": {
+        "title": "Web Development",
+        "desc": "We build both static and dynamic websites, optimized for all screen sizes."
+      },
+      "ui-ux": {
+        "title": "UI/UX Design",
+        "desc": "Modern and visually appealing user interface designs that reflect the project's nature."
+      },
+      "consulting": {
+        "title": "Web Consulting",
+        "desc": "We offer expert consultations and solutions for web design and development."
+      }
+    }
+  },
+  "project": {
+    "title": "Projects",
+    "subtitle": "Some Completed Projects",
+    "projectData": {
+      "pro-1": {
+        "title": "Online Clothing Store - Elegance",
+        "desc": "This e-commerce store was developed using Next.js and MongoDB, providing a modern and seamless shopping experience for fashion enthusiasts. The site features a fast, interactive user interface that allows visitors to browse and purchase products easily across all devices.",
+        "url": "/",
+        "github": "/github.com"
+      },
+      "pro-2": {
+        "title": "Restaurant Website - Asian Flavors",
+        "desc": "This website is designed to immerse visitors in the unique atmosphere of the 'Asian Flavors' restaurant. It provides an engaging digital experience, reflecting the Asian vibe, while presenting the diverse menu in an appealing and appetizing way, enhancing customer engagement.",
+        "url": "/",
+        "github": "/github.com"
+      },
+      "pro-3": {
+        "title": "Library Website - Iqra",
+        "desc": "This website introduces users to 'Iqra Library,' which offers a wide range of books in both Arabic and English. The site is designed to provide a smooth and attractive browsing experience, displaying available books and offering contact information and order details to enhance customer experience.",
+        "url": "/",
+        "github": "/github.com"
+      },
+      "pro-4": {
+        "title": "Landing Page for Coffee Product",
+        "desc": "A landing page designed to showcase a coffee product with an attractive layout featuring dynamic elements. The page highlights the product’s features and provides information about sales points and distribution locations in a simple and user-friendly manner.",
+        "url": "/",
+        "github": "/github.com"
+      },
+      "pro-5": {
+        "title": "Landing Page - Sports Products",
+        "desc": "A landing page designed to showcase sports shoes in an organized and visually appealing manner. The goal is to convert visitors into customers by providing clear product details, contact information, and ordering methods, all while ensuring fast performance and responsiveness across all devices.",
+        "url": "/",
+        "github": "/github.com"
+      },
+      "pro-6": {
+        "title": "Corporate Website - Service Company",
+        "desc": "A corporate website designed using React to display the company's services in a professional and attractive way. The site is responsive, featuring interactive animations and SEO optimization to ensure high visibility in search engine results.",
+        "url": "/",
+        "github": "/github.com"
+      },
+      "pro-7": {
+        "title": "Educational Platform for Kids",
+        "desc": "This educational platform for children is built using Next.js 14 and includes multiple pages displaying site content, services, and contact information. It also provides a dedicated admin panel to manage lessons and educational materials, offering a responsive experience across all devices.",
+        "url": "/",
+        "github": "/github.com"
+      }
+    }
+  },
+  "hireme": {
+    "title": "About Us",
+    "subTitle": "Meet the Team",
+    "hiremeData": {
+      "sec1": {
+        "title": "Your Partners in Digital Success",
+        "desc": "We provide innovative solutions for web design and development that meet your marketing needs and help you achieve your goals. Our team is committed to creating outstanding digital experiences that reflect your identity and attract your target customers."
+      },
+      "sec2": {
+        "title": "Our Comprehensive Services",
+        "desc": "We offer a full range of services, including graphic design and technical development, using the latest technologies to ensure your website’s speed, security, and efficiency."
+      },
+      "sec3": {
+        "title": "Why Choose Us?",
+        "desc": "With extensive experience in web design and development, we provide tailored solutions to meet your needs. Customer satisfaction is our top priority."
+      },
+      "sec4": {
+        "title": "",
+        "desc": "We believe a successful website is one that delivers tangible results."
+      }
+    },
+    "btnText": "Contact Us"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subTitle": "Feel Free to Reach Out for Any Inquiries",
+    "btnSubmit": "Submit"
+  }
+}

@@ -1,24 +1,69 @@
-import About from "../component/About/About";
-import AppSect from "../component/AppSection/AppSect";
-import DowApp from "../component/DowApp/DowApp";
-import { Footer } from "../component/Footer/Footer";
-import Hero from "../component/Hero/Hero";
-import MenuFood from "../component/MenuFood/MenuFood";
-import Reserve from "../component/Reserve/Reserve";
-import Service from "../component/Service/Service";
-const Index = () => {
+import { useEffect } from "react";
+
+// i18n
+import i18n from "i18next";
+import { initReactI18next } from "react-i18next";
+import LanguageDetector from "i18next-browser-languagedetector";
+import HttpApi from "i18next-http-backend";
+
+// import components
+import Hero from "../components/Hero";
+import Navbar from "../Layouts/Navbar";
+import Skills from "../components/Skills";
+import Service from "../components/Services";
+import Hireme from "../components/Hireme";
+import Projects from "../components/Projects";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
+
+// Animation package
+import Aos from "aos";
+import "aos/dist/aos.css";
+
+i18n
+  .use(initReactI18next)
+  .use(LanguageDetector)
+  .use(HttpApi)
+  .init({
+    fallbackLng: "en",
+    detection: {
+      order: [
+        "cookie",
+        "htmlTag",
+        "localStorage",
+        "sessionStorage",
+        "navigator",
+        "path",
+        "subdomain",
+      ],
+      caches: ["cookie"],
+    },
+    backend: {
+      loadPath: "/locale/{{lng}}/{{ns}}.json",
+    },
+  });
+
+const App = () => {
+  useEffect(() => {
+    Aos.init({
+      duration: 1800,
+      offset: 100,
+      disable: "mobile",
+    });
+  }, []);
+
   return (
-    <div>
+    <div className="">
+      <Navbar />
       <Hero />
-      <About />
-      <AppSect />
+      <Skills />
       <Service />
-      <MenuFood />
-      <Reserve />
-      <DowApp />
+      <Projects />
+      <Hireme />
+      <Contact />
       <Footer />
     </div>
   );
 };
 
-export default Index;
+export default App;
