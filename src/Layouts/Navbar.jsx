@@ -43,7 +43,7 @@ const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   const [active, setActive] = useState(0);
 
-  const leng = ["ar", "en"];
+  // const leng = ["ar", "en"];
   const lng = cookies.get("i18next") || "en";
 
   const changeDir = () => {
@@ -56,7 +56,7 @@ const Navbar = () => {
     <div className="w-full flex justify-center">
       <div
         dir="ltr"
-        className="sm:cursor-pointer fixed top-10 left-10 z-[999] p-2 flex gap-2 bg-slate-200/60 rounded-full"
+        className="sm:cursor-pointer fixed top-8 left-8 z-[999] p-2 flex gap-1 bg-slate-200/60 rounded-full"
       >
         <button
           className=" hover:bg-slate-200 rounded-full p-1 duration-300"
@@ -70,11 +70,11 @@ const Navbar = () => {
         >
           {/* chenge Leng  */}
           <div className="group relative cursor-pointer ">
-            <div className="flex h-[30px] items-center justify-center gap-[2px] p-1 ">
-              <IoLanguageOutline size={16} />
+            <div className="flex h-[25px] items-center justify-center gap-[2px] p-1 ">
+              <IoLanguageOutline size={15} />
               <ul className=" gap-2 px-2 hidden group-hover:flex transition-all duration-200">
                 {/* {leng.map((item, ind) => ( */}
-                <li className=" rounded-full bg-green-100 hover:bg-green-200 duration-300 cursor-pointer w-7 h-7 flex justify-center items-center">
+                <li className=" rounded-full bg-green-100 hover:bg-green-200 duration-300 cursor-pointer w-6 h-6 flex justify-center items-center">
                   <button
                     onClick={() => {
                       i18n.changeLanguage("ar");
@@ -86,7 +86,7 @@ const Navbar = () => {
                     Ar
                   </button>
                 </li>
-                <li className=" rounded-full bg-green-200 hover:bg-green-300 duration-200 cursor-pointer w-7 h-7 flex justify-center items-center">
+                <li className=" rounded-full bg-green-200 hover:bg-green-300 duration-200 cursor-pointer w-6 h-6 flex justify-center items-center">
                   <button
                     onClick={() => {
                       i18n.changeLanguage("en");

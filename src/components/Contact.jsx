@@ -1,4 +1,4 @@
-import { createElement, useRef } from "react";
+import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import toast, { Toaster } from "react-hot-toast";
 import { useTranslation } from "react-i18next";
@@ -6,27 +6,45 @@ import cookies from "js-cookie";
 import logo from "../assets/images/Contact/logo.png";
 
 // icons
-import { GrMail } from "react-icons/gr";
-import { MdCall } from "react-icons/md";
-import { BsInstagram } from "react-icons/bs";
+// import { GrMail } from "react-icons/gr";
+// import { MdCall } from "react-icons/md";
+// import { BsInstagram } from "react-icons/bs";
+
+// image
+import instagram from "../assets/images/Icon/instagram.png";
+import facebook from "../assets/images/Icon/facebook.png";
+import email from "../assets/images/Icon/email.png";
+import whatsapp from "../assets/images/Icon/whatsapp.png";
+import tiktok from "../assets/images/Icon/tiktok.png";
 
 const social_media_data = [
   {
-    text: "codeaprogram@gmail.com",
-    icon: GrMail,
-    link: "mailto:codeaprogram@gmail.com",
+    text: "Tech.Zone.Team.Dz@gmail.com",
+    icon: email,
+    link: "mailto:tech.zone.team.dz@gmail.com",
   },
   {
-    text: "+91 1234 56778",
-    icon: MdCall,
-    link: "https://wa.me/1234567890",
+    text: "Tech Zone",
+    icon: facebook,
+    link: "https://www.facebook.com/people/Tech-Zone/61556776194452/?locale=fr_FR",
   },
   {
-    text: "codeaprogram",
-    icon: BsInstagram,
-    link: "https://www.instagram.com/codeaprogram/",
+    text: "Tech Zone Team",
+    icon: instagram,
+    link: "https://www.instagram.com/tech_zone_team/",
   },
 ];
+const contactMore = [
+  {
+    icon: whatsapp,
+    link: "https://wa.me/213670000320",
+  },
+  {
+    icon: tiktok,
+    link: "https://www.tiktok.com/@tech_zone_taem",
+  },
+];
+// link:,
 
 const Contact = () => {
   const form = useRef();
@@ -36,13 +54,12 @@ const Contact = () => {
   // Sending Email
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        "service_2zb8fra",
+        "template_hwdyq4f",
         form.current,
-        "YOUR_PUBLIC_KEY"
+        "e50fOr2aDksjQF0QY"
       )
       .then(
         (result) => {
@@ -105,7 +122,7 @@ const Contact = () => {
             />
             <input
               type="email"
-              name="user_email"
+              name="from_email"
               pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
               placeholder={lng === "ar" ? "الإيمايل" : "Email"}
               required
@@ -135,20 +152,46 @@ const Contact = () => {
               {t("contact.btnSubmit")}
             </button>
           </form>
-          <div dir="ltr" className="flex-1 flex flex-col gap-5">
+          <div className="flex-1 flex flex-col gap-5">
             {social_media_data.map((content, i) => (
-              <div
+              <a
+                href={content.link}
+                target="_blank"
                 key={i}
                 data-aos="fade-down"
                 data-aos-delay={i * 430}
-                className="flex items-center gap-2"
+                className="flex items-center gap-3 group"
               >
-                <h4 className="text-white">{createElement(content.icon)}</h4>
-                <a className="font-Poppins" href={content.link} target="_blank">
+                <img
+                  src={content.icon}
+                  className="w-12 h-10 cursor-pointer group-hover:scale-110 duration-300 "
+                />
+                <p className=" text-white group-hover:scale-105 duration-300">
                   {content.text}
-                </a>
-              </div>
+                </p>
+                {/* <p className="font-Poppins group-hover:scale-105 duration-300">
+                  
+                </p> */}
+              </a>
             ))}
+            <div className="flex gap-4">
+              {contactMore.map((elm, i) => (
+                <a
+                  href={elm.link}
+                  target="_blank"
+                  className=" "
+                  key={i}
+                  data-aos="fade-down"
+                  data-aos-delay={i * 430}
+                >
+                  <img
+                    src={elm.icon}
+                    className="w-12 h-10 cursor-pointer hover:scale-110 duration-300"
+                  />
+                </a>
+              ))}
+            </div>
+
             <div className="w-[160px] h-[160px] mx-auto">
               <img src={logo} alt="logo" />
             </div>
