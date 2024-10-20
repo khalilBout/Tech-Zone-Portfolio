@@ -16,6 +16,7 @@ import Projects from "../components/Projects";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 
+import ReactGA from "react-ga";
 // Animation package
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -50,6 +51,7 @@ const App = () => {
       offset: 100,
       disable: "mobile",
     });
+    ReactGA.pageview(window.location.pathname);
   }, []);
 
   return (
