@@ -9,10 +9,10 @@ import NotFoundPage from "./pages/NotFoundPage";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import ReactGA from "react-ga";
+// import ReactGA from "react-ga";
 
-const TRAFIC_ID = "G-1H2ZSZZ9EG";
-ReactGA.initialize(TRAFIC_ID);
+// const TRAFIC_ID = "G-1H2ZSZZ9EG";
+// ReactGA.initialize(TRAFIC_ID);
 
 const router = createBrowserRouter([
   {
