@@ -50,7 +50,7 @@ const Hero = () => {
               className={`flex items-center w-80 gap-5 flex-row-reverse text-right `}
             >
               <h3 className="flex">
-                4 <span>+</span>
+                5 <span>+</span>
               </h3>
               <p
                 className={
@@ -78,7 +78,7 @@ const Hero = () => {
                 {t("hero.projects")}
               </p>
               <h3 className="flex">
-                15 <span>+</span>
+                80 <span>+</span>
               </h3>
             </div>
           </div>
