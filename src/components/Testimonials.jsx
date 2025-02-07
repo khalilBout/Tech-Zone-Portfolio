@@ -23,19 +23,25 @@ import pro3 from "../assets/images/Projects/all/book.png";
 import pro2 from "../assets/images/Projects/all/resturnt.png";
 import pro1 from "../assets/images/Projects/all/ecommerce.png";
 import pro7 from "../assets/images/Projects/all/bravo.png";
+import pro8 from "../assets/images/Projects/all/bty.png";
+import pro9 from "../assets/images/Projects/all/frzl.png";
+import pro10 from "../assets/images/Projects/all/falcun.png";
 
 const Testimonials = () => {
   // const { Testimonials } = content;
   const lng = cookies.get("i18next") || "en";
   const [activeIndex, setActiveIndex] = useState(0);
   const listServes = [
-    { key: "pro-1", img: pro1 },
-    { key: "pro-2", img: pro2 },
-    { key: "pro-3", img: pro3 },
+    { key: "pro-1", img: pro9 },
+    { key: "pro-2", img: pro10 },
+    { key: "pro-3", img: pro8 },
     { key: "pro-4", img: pro4 },
     { key: "pro-5", img: pro5 },
-    { key: "pro-6", img: pro6 },
+    { key: "pro-6", img: pro2 },
     { key: "pro-7", img: pro7 },
+    { key: "pro-8", img: pro3 },
+    { key: "pro-9", img: pro1 },
+    { key: "pro-10", img: pro6 },
   ];
   const { t } = useTranslation();
 
@@ -86,6 +92,7 @@ const Testimonials = () => {
                     <div className="flex gap-4">
                       <a
                         href={t(`project.projectData.${content.key}.url`)}
+                        target="_blank"
                         className="w-8 h-8 rounded-full bg-slate-300 hover:bg-slate-600 cursor-pointer flex justify-center items-center hover:scale-110 duration-200"
                       >
                         <FaGlobe size={24} />

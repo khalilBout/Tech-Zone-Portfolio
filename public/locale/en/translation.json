@@ -58,46 +58,60 @@
     "subtitle": "Some Completed Projects",
     "projectData": {
       "pro-1": {
-        "title": "Online Clothing Store - Elegance",
-        "desc": "This e-commerce store was developed using Next.js and MongoDB, providing a modern and seamless shopping experience for fashion enthusiasts. The site features a fast, interactive user interface that allows visitors to browse and purchase products easily across all devices.",
-        "url": "/",
-        "github": "/github.com"
+        "title": "Interactive Experience for Fros-tella Ice Cream Shop",
+        "desc": "We designed a website for Fros-tella that delivers a sensory experience reflecting the coolness of ice creams. We focused on visitor interaction with products, contributing to tripling orders thanks to attractive design and modern technologies.",
+        "url": "https://fros-tella.vercel.app/",
+        "github": "https://github.com/khalilBout/fros-tella"
       },
       "pro-2": {
-        "title": "Restaurant Website - Asian Flavors",
-        "desc": "This website is designed to immerse visitors in the unique atmosphere of the 'Asian Flavors' restaurant. It provides an engaging digital experience, reflecting the Asian vibe, while presenting the diverse menu in an appealing and appetizing way, enhancing customer engagement.",
-        "url": "https://react-app-restaurant-ar.vercel.app/",
-        "github": "/github.com"
+        "title": "Professional Website for Falkon Printing & Embroidery Company",
+        "desc": "We developed a website enhancing Falkon's presence, featuring a product gallery and high-performance e-commerce store with seamless user experience, contributing to improved customer communication and increased sales.",
+        "url": "https://falcun-next-js-app.vercel.app/",
+        "github": "https://github.com/khalilBout/falkon-printing"
       },
       "pro-3": {
-        "title": "Library Website - Iqra",
-        "desc": "This website introduces users to 'Iqra Library,' which offers a wide range of books in both Arabic and English. The site is designed to provide a smooth and attractive browsing experience, displaying available books and offering contact information and order details to enhance customer experience.",
-        "url": "https://books-stor-multiple-len.vercel.app",
-        "github": "/github.com"
+        "title": "Beauty-Shoes Women's Footwear Store Website",
+        "desc": "We created a website reflecting Beauty-Shoes' elegance with attractive design and smooth user experience. Focused on showcasing modern collections, helping increase sales and build customer trust.",
+        "url": "https://beauty-shoes.vercel.app",
+        "github": "https://github.com/khalilBout/beauty-shoes"
       },
       "pro-4": {
-        "title": "Landing Page for Coffee Product",
-        "desc": "A landing page designed to showcase a coffee product with an attractive layout featuring dynamic elements. The page highlights the product’s features and provides information about sales points and distribution locations in a simple and user-friendly manner.",
+        "title": "Landing Page for Coffee Beverage Product",
+        "desc": "We designed a landing page highlighting coffee product features with dynamic element design and seamless presentation of sales locations information.",
         "url": "https://coffee-landinge-page.vercel.app/",
-        "github": "/github.com"
+        "github": "https://github.com/khalilBout/coffee-landing"
       },
       "pro-5": {
-        "title": "Landing Page - Sports Products",
-        "desc": "A landing page designed to showcase sports shoes in an organized and visually appealing manner. The goal is to convert visitors into customers by providing clear product details, contact information, and ordering methods, all while ensuring fast performance and responsiveness across all devices.",
-        "url": "https://nike-app-linding-page.vercel.app/",
-        "github": "/github.com"
+        "title": "Sports Shoes Landing Page",
+        "desc": "We designed an engaging landing page showcasing sports shoes with organized presentation, clear information, and contact details to ensure smooth shopping experience.",
+        "url": "https://nike-app-linding-page.vercel.app",
+        "github": "https://github.com/khalilBout/sports-shoes-landing"
       },
       "pro-6": {
-        "title": "Corporate Website - Service Company",
-        "desc": "A corporate website designed using React to display the company's services in a professional and attractive way. The site is responsive, featuring interactive animations and SEO optimization to ensure high visibility in search engine results.",
-        "url": "/",
-        "github": "/github.com"
+        "title": "Showcase Website for Asian Taste Restaurant",
+        "desc": "We created a website transporting visitors to Asian Taste Restaurant's unique atmosphere, featuring an appealing menu presentation that enhances customer interaction.",
+        "url": "https://react-app-restaurant-ar.vercel.app",
+        "github": "https://github.com/khalilBout/asian-taste"
       },
       "pro-7": {
-        "title": "Educational Platform for Kids",
-        "desc": "This educational platform for children is built using Next.js 14 and includes multiple pages displaying site content, services, and contact information. It also provides a dedicated admin panel to manage lessons and educational materials, offering a responsive experience across all devices.",
+        "title": "Educational Platform for Children",
+        "desc": "We developed a learning platform using Next.js 14, providing educational content and a responsive dashboard for lesson management.",
         "url": "https://www.mothakaratbravo.online/",
-        "github": "/github.com"
+        "github": "https://github.com/khalilBout/kids-learning-platform"
+      },
+      "pro-8": {
+        "title": "Iqra Library Website",
+        "desc": "We designed a website for 'Iqra Library' displaying diverse Arabic and English book collections with smooth and engaging browsing experience.",
+        "url": "https://books-stor-multiple-len.vercel.app/",
+        "github": "https://github.com/khalilBout/iqra-library"
+      },
+      "pro-9": {
+        "title": "Elegance Clothing E-commerce Store",
+        "desc": "We developed a clothing e-commerce store using Next.js and MongoDB with interactive interface and high performance speed, supporting search engine optimization (SEO) to ensure visibility and increase sales."
+      },
+      "pro-10": {
+        "title": "Service Company Showcase Website",
+        "desc": "We designed a professional website showcasing company services using React with search engine optimization to ensure top search result visibility."
       }
     }
   },
